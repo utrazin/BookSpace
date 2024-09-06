@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/poemas.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="shortcut icon" type="image/jpg" href="imgs/favicon.ico"/>
     <title>BookSpace</title>
 </head>
@@ -26,13 +28,78 @@
             </nav>
         </header>
         <div id="content">
-            
+            <div id="poems">
+                <h1>Poetas</h1>
+                <div id="poets-content">
+                    <div class="poet">
+                        <img src="imgs/poeta1.jpg" alt="Poeta 1">
+                        <h2>Cecília Meireles</h2>
+                        <p class="p1"><b>(1901-1964)</b></p>
+                        <p>Foi uma poetisa brasileira renomada por sua lírica sensível e introspectiva, explorando temas como solidão e espiritualidade com uma linguagem musical e imagens poéticas marcantes.</p>
+                        <a href="" class="botao-acesso" data-poet="cecilia-meireles">Ver Poemas</a>
+                    </div>
+                    <div class="poet">
+                        <img src="imgs/poeta2.jpg" alt="Poeta 2">
+                        <h2>Carlos Drummond</h2>
+                        <p class="p1"><b>(1902-1987)</b></p>
+                        <p>É um dos maiores poetas brasileiros do século XX, conhecido por sua linguagem inovadora e crítica social. Sua obra aborda a solidão, a alienação e a busca por sentido na vida moderna.</p>
+                        <a href="" class="botao-acesso" data-poet="carlos-drummond">Ver Poemas</a>
+                    </div>
+                    <div class="poet">
+                        <img src="imgs/poeta3.jpg" alt="Poeta 3">
+                        <h2>Manuel Bandeira</h2>
+                        <p class="p1"><b>(1886-1968)</b></p>
+                        <p>É um renomado poeta brasileiro cuja obra é marcada por uma linguagem simples e direta, explorando temas de dor e esperança, refletindo suas experiências pessoais e angústias nos seus trabalhos.</p>
+                        <a href="" class="botao-acesso" data-poet="manuel-bandeira">Ver Poemas</a>
+                    </div>
+                    <div class="poet">
+                        <img src="imgs/poeta4.webp" alt="Poeta 4">
+                        <h2>Paulo Leminski</h2>
+                        <p class="p1"><b>(1944-1989)</b></p>
+                        <p>Foi um poeta brasileiro que se destacou pela experimentação com a linguagem e o estilo único. Ele misturou influências do haicai japonês com a literatura brasileira, criando uma obra crítica e irônica.</p>
+                        <a href="" class="botao-acesso" data-poet="paulo-leminski">Ver Poemas</a>
+                    </div>
+                    <div class="poet">
+                        <img src="imgs/poeta5.jpg" alt="Poeta 5">
+                        <h2>Cora Coralina</h2>
+                        <p class="p1"><b>(1889-1985)</b></p>
+                        <p>Foi uma poetisa brasileira que ganhou reconhecimento tardio. Seus poemas retratam a vida no interior de Goiás com uma abordagem sensível sobre a cultura e o cotidiano das pessoas simples.</p>
+                        <a href="" class="botao-acesso" data-poet="cora-coralina">Ver Poemas</a>
+                    </div>
+                    <div class="poet">
+                        <img src="imgs/poeta6.jpg" alt="Poeta 6">
+                        <h2>Olavo Bilac</h2>
+                        <p class="p1"><b>(1865-1918)</b></p>
+                        <p>Foi um poeta parnasiano, conhecido por sua busca pela perfeição estética e formal na poesia. Seus temas incluem amor e pátria, e ele também teve influência como jornalista e defensor da língua portuguesa.</p>
+                        <a href="" class="botao-acesso" data-poet="olavo-bilac">Ver Poemas</a>
+                    </div>
+                </div>
+            </div>
+            <div id="poet-template" style="display: none;">
+                <button id="back-button">Voltar</button>
+                <div id="poet-details"></div>
+            </div>
         </div>
         <footer>
             <div id="footer-content">
-                Copyright &copy; 2024
+                <div id="team">
+                    <h2>Nossa Equipe</h2>
+                    <ul>
+                        <li>Enzo Dutra</li>
+                        <li class="bold">|</li>
+                        <li>Vitor Cruz</li>
+                        <li class="bold">|</li>
+                        <li>Ithallo Emanuel</li>
+                        <li class="bold">|</li>
+                        <li>Matheus Schneider</li>
+                        <li class="bold">|</li>
+                        <li>Tarik Kassem</li>
+                    </ul>
+                </div>
+                <p>Copyright &copy; <b>2024</b> - BookSpace</p>
             </div>
         </footer>
     </div>
+    <script src="js/poemas.js"></script>
 </body>
 </html>

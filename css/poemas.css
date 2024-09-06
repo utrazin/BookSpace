@@ -1,0 +1,116 @@
+#content {
+    background-color: #fdfdfd;
+    padding: 10px 0;
+}
+
+#poems {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#poems h1 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #3e4e56;
+    margin: 15px 0;
+}
+
+#poets-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.poet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 29%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.poet img {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #3e4e56;
+    border-radius: 5px;
+}
+
+.poet h2 {
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: #3e4e56;
+}
+
+.poet p {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.poet .p1 {
+    margin-bottom: 20px;
+}
+
+.botao-acesso {
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #22abeb;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.botao-acesso:hover {
+    background-color: #1a8ecb;
+}
+
+#poet-template {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#back-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #22abeb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#back-button:hover {
+    background-color: #1a8ecb;
+}
+
+#poet-details h2 {
+    margin: 15px 0 30px 0;
+    color: #3e4e56;
+}
+
+#poet-details img{
+    width: 35%;
+    margin-bottom: 25px;
+}
+
+#poet-details h3 {
+    margin: 45px 0 15px 0;
+    color: #3e4e56;
+}
+
+.poema-content {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.last {
+    margin-bottom: 30px;
+}

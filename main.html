@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="shortcut icon" type="image/jpg" href="imgs/favicon.ico"/>
     <title>BookSpace</title>
 </head>
@@ -36,60 +37,79 @@
                 <div id="books-content">
                     <div class="book">
                         <img src="imgs/livro1.jpg" alt="Livro 1">
-                        <a href="#">Resumo</a>
+                        <a href="#" class="book-link" data-book="resumo1">Resumo</a>
                     </div>
                     <div class="book">
                         <img src="imgs/livro2.jpg" alt="Livro 2">
-                        <a href="#">Resumo</a>
+                        <a href="#" class="book-link" data-book="resumo2">Resumo</a>
                     </div>
                     <div class="book">
                         <img src="imgs/livro3.webp" alt="Livro 3">
-                        <a href="#">Resumo</a>
+                        <a href="#" class="book-link" data-book="resumo3">Resumo</a>
                     </div>
                     <div class="book">
                         <img src="imgs/livro4.jpg" alt="Livro 4">
-                        <a href="#">Resumo</a>
+                        <a href="#" class="book-link" data-book="resumo4">Resumo</a>
                     </div>
                     <div class="book">
                         <img src="imgs/livro5.jpg" alt="Livro 5">
-                        <a href="#">Resumo</a>
+                        <a href="#" class="book-link" data-book="resumo5">Resumo</a>
                     </div>
                     <div class="book">
                         <img src="imgs/livro6.jpg" alt="Livro 6">
-                        <a href="#">Resumo</a>
+                        <a href="#" class="book-link" data-book="resumo6">Resumo</a>
                     </div>
                     <div class="book">
                         <img src="imgs/livro7.jpg" alt="Livro 7">
-                        <a href="#">Resumo</a>
+                        <a href="#" class="book-link" data-book="resumo7">Resumo</a>
                     </div>
                     <div class="book">
                         <img src="imgs/livro8.jpg" alt="Livro 8">
-                        <a href="#">Resumo</a>
+                        <a href="#" class="book-link" data-book="resumo8">Resumo</a>
                     </div>
                     <div class="book">
                         <img src="imgs/livro9.jpg" alt="Livro 9">
-                        <a href="#">Resumo</a>
+                        <a href="#" class="book-link" data-book="resumo9">Resumo</a>
                     </div>
                     <div class="book">
                         <img src="imgs/livro10.jpg" alt="Livro 10">
-                        <a href="#">Resumo</a>
+                        <a href="#" class="book-link" data-book="resumo10">Resumo</a>
                     </div>
                     <div class="book">
                         <img src="imgs/livro11.jpg" alt="Livro 11">
-                        <a href="#">Resumo</a>
+                        <a href="#" class="book-link" data-book="resumo11">Resumo</a>
                     </div>
                     <div class="book">
                         <img src="imgs/livro12.jpg" alt="Livro 12">
-                        <a href="#">Resumo</a>
+                        <a href="#" class="book-link" data-book="resumo12">Resumo</a>
                     </div>
                 </div>
+            </div>
+            <div id="book-template" style="display: none;">
+                <button id="back-button">Voltar</button>
+                <div id="book-details"></div>
             </div>
         </div>
         <footer>
             <div id="footer-content">
-                Copyright &copy; 2024
+                <div id="team">
+                    <h2>Nossa Equipe</h2>
+                    <ul>
+                        <li>Enzo Dutra</li>
+                        <li class="bold">|</li>
+                        <li>Vitor Cruz</li>
+                        <li class="bold">|</li>
+                        <li>Ithallo Emanuel</li>
+                        <li class="bold">|</li>
+                        <li>Matheus Schneider</li>
+                        <li class="bold">|</li>
+                        <li>Tarik Kassem</li>
+                    </ul>
+                </div>
+                <p>Copyright &copy; <b>2024</b> - BookSpace</p>
             </div>
         </footer>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>

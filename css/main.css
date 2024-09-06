@@ -30,6 +30,7 @@
 .book img {
     width: 250px;
     height: 400px;
+    border: 1px solid #3e4e56;
 }
 
 #books-content {
@@ -50,8 +51,68 @@
 .book a {
     margin-top: 10px;
     text-decoration: none;
+    padding: 10px 20px;
+    background-color: #22abeb;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#book-template {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#back-button {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #22abeb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#back-button:hover,
+.book a:hover,
+#book-details a:hover {
+    background-color: #1a8ecb;
+}
+
+#book-details {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#book-details p {
+    text-align: justify;
+}
+
+#book-details .autor {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#book-details img {
+    width: 35%;
+    margin-bottom: 25px;
+}
+
+#book-details h2 {
+    margin-bottom: 15px;
+    text-align: center;
     color: #3e4e56;
-    font-weight: bold;
-    border: 1px solid #3e4e56;
-    padding: 5px;
+}
+
+#book-details a {
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #22abeb;
+    color: #fff;
+    border-radius: 5px;
 }

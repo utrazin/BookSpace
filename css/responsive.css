@@ -1,0 +1,181 @@
+/* Ajustes para dispositivos menores */
+nav {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav .nav-link {
+    font-size: 1.6em;
+    padding: 10px;
+    margin: 5px;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#footer-content {
+    text-align: center;
+}
+
+#books {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+#books-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.book img {
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    max-height: 369.94px;
+    border: 1px solid #3e4e56;
+}
+
+@media (max-width: 1080px) {
+    #about {
+        width: 700px;
+    }
+
+    #footer-content {
+        width: 768px;
+    }
+
+    #books-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .book img {
+        max-width: 200px;
+    }
+
+    #poets-content,
+    #poems,
+    #category,
+    #frases,
+    #book-template,
+    #book-details,
+    #poet-template {
+        width: 760px;
+    }
+}
+
+@media (max-width: 768px) {
+    #poets-content,
+    #poems,
+    #category,
+    #frases,
+    #book-template,
+    #book-details,
+    #about,
+    #footer-content,
+    #poet-template {
+        width: 460px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav .nav-link {
+        font-size: 1.4em;
+        padding: 10px 15px;
+        margin: 5px 0;
+    }
+
+    #footer-content {
+        padding: 20px;
+    }
+    
+    #books-content, #poets-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book, .poet {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    #book-details img, #poet-details img {
+        width: 50%;
+    }
+
+    .quote {
+        width: 90%;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    nav .nav-link {
+        font-size: 1em;
+    }
+
+    footer {
+        padding: 15px 5px;
+    }
+
+    #footer-content {
+        padding: 0 5px;
+    }
+    
+    #books-content, #poets-content {
+        margin: 10px 0;
+    }
+    
+    .book, .poet {
+        width: 100%;
+    }
+    
+    .quote img {
+        width: 180px;
+        height: 180px;
+    }
+}

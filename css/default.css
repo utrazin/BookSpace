@@ -7,6 +7,10 @@
     font-family: 'Montserrat';
 }
 
+body {
+    overflow-y: scroll;
+}
+
 header {
     background-color: #22abeb;
     padding: 10px 0;
@@ -31,7 +35,15 @@ nav .nav-link {
     text-decoration: none;
     color: #fff;
     font-size: 1.6em;
+    padding: 5px;
+    border-radius: 10px;
     font-weight: 500;
+}
+
+nav .nav-link:hover {
+    background-color: #fff;
+    color: #22abeb;
+    transition: 0.5s all ease-in-out;
 }
 
 nav .nav-link:not(:last-child) {
@@ -48,5 +60,33 @@ footer {
 #footer-content {
     width: 1080px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#team h2 {
+    font-size: 1.4em;
+    color: #fff;
+    margin-bottom: 5px;
     text-align: center;
+}
+
+#team ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+#team li {
+    font-size: 1.1em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: bold;
 }
